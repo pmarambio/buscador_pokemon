@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/paulama1/public_html/buscador_pokemon
+    - export DEPLOYPATH=/home/paulama1/public_html/pokesearch
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp index.js $DEPLOYPATH
