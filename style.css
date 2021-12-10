@@ -1,0 +1,43 @@
+body,html{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    width: max-content;
+    margin: 0 auto;
+}
+div#poke_card {
+    width: 25%;
+    border: 1px solid grey;    
+    border-radius: 20px;    
+    margin: 30px auto;
+    padding: 1.5%;
+    display: none;
+}   
+h1#poke_titulo {
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+}
+img#poke_imagen {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+p{
+    font-size: 12px ;
+}
+p span{
+   margin: 0 3px;
+   padding: 5px 10px;
+   border-radius: 15px;
+   color: #ffffff
+}
+
+p span.bold{
+    padding: 5px;
+    font-weight: 700;
+    color: #000000
+}
