@@ -10,7 +10,7 @@ form{
 div#poke_card {
     width: 25%;
     min-width: 300px;
-    border: 1px solid grey;    
+    border: 2px solid #f6c209;    
     border-radius: 20px;    
     margin: 30px auto;
     padding: 1.5%;
