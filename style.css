@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body,html{
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,11 +12,18 @@ h1{
     font-family: 'Pokemon Solid';
     text-align: center;
     color: #e7c032;
-    text-shadow: 1px 1px 1px rgb(30, 30, 175);
+    text-shadow: 6px 4px 0px rgb(30 30 175)
 }
 form{
     width: max-content;
     margin: 0 auto;
+}
+input#pokemon{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    padding: 10px 30px;
 }
 div#poke_card {
     width: 25%;
