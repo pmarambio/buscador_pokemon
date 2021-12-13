@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('PokemonSolidNormal.eot');
+    src: url('PokemonSolidNormal.eot?#iefix') format('embedded-opentype'),
+        url('PokemonSolidNormal.woff2') format('woff2'),
+        url('PokemonSolidNormal.woff') format('woff'),
+        url('PokemonSolidNormal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

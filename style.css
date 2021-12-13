@@ -3,6 +3,9 @@ body,html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ac0000;
 }
+h1{
+    font-family: 'Pokemon Solid';
+}
 form{
     width: max-content;
     margin: 0 auto;

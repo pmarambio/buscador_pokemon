@@ -5,3 +5,4 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp index.js $DEPLOYPATH
+    - /bin/cp -r fonts $DEPLOYPATH
