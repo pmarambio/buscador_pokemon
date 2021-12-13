@@ -5,6 +5,9 @@ body,html{
 }
 h1{
     font-family: 'Pokemon Solid';
+    text-align: center;
+    color: #e7c032;
+    text-shadow: 1px 1px 1px rgb(30, 30, 175);
 }
 form{
     width: max-content;
