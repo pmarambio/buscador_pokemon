@@ -6,24 +6,59 @@
 body,html{
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ac0000;
+    background-color: rgb(12, 12, 56);
 }
 h1{
     font-family: 'Pokemon Solid';
+    font-size: 4vw;
     text-align: center;
     color: #e7c032;
-    text-shadow: 6px 4px 0px rgb(30 30 175)
+    text-shadow: 6px 4px 0px rgb(30 30 175);
+    margin-top: 3vw;
+}
+h2{
+    text-align: center;
 }
 form{
-    width: max-content;
+    width: 25%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.buscador{
+    width: 100%;
+    display: flex;
+    background-color: #e7c032;
+    border-radius: 30px;
+    border: 1px solid black;
+
 }
 input#pokemon{
     width: 80%;
     height: 30px;
-    border-radius: 30px;
+    border-radius:  30px 0px 0px 30px;
     border: 0;
     padding: 10px 30px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+}
+input#buscar{
+    width: 20%;
+    border: none;
+    background-color: transparent;
+    border-radius:  0px 30px 30px 0px;
+    transition: 0.5s ease-in;
+}
+input#buscar:hover {
+    background-color: #fcaf08 ;
 }
 div#poke_card {
     width: 25%;
@@ -61,4 +96,53 @@ p span.bold{
     padding: 5px;
     font-weight: 700;
     color: #000000
+}
+#poke_habilidades,#poke_tipos{
+    margin: 10px 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: #ffffff;
+    padding: 0 1vw;
+}
+footer p:first-child{
+    border-right: 1px solid #ffffff;
+}
+
+footer p a{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+@media (max-width: 992px) {
+    form{
+        width: 80%;
+        max-width: 300px;
+    }
+    h1{
+        font-size: 8vw;
+        margin-top: 10vw;
+    }
+
+    footer{
+       flex-direction: column;
+    }
+    footer p{
+        padding: 1vw 0;
+    }
+    footer p:first-child{
+        border-right: none;
+    }
+
 }
