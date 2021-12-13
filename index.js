@@ -56,7 +56,7 @@ const plantilla  = (datos) => {
     ];
     let poke_card = document.querySelector('#poke_card')
 
-    poke_card.innerHTML += `<h1 id="poke_titulo">#${datos.id}  ${datos.name}</h1>`
+    poke_card.innerHTML += `<h2 id="poke_titulo">#${datos.id}  ${datos.name}</h2>`
     poke_card.innerHTML += `<img id="poke_imagen" src="${datos.sprites.front_default}" alt="">`
     poke_card.innerHTML += `<div id="poke_tipos"><p class="poke_tipos"><span class="bold">Tipo:</span></p></div>`
     poke_card.innerHTML += `<div id="poke_habilidades"><p class="poke_habilidades"><span class="bold">Habilidades:</span></p></div>`
