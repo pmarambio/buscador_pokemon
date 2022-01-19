@@ -69,6 +69,7 @@ div#poke_card {
     padding: 1.5%;
     display: none;
     background-color: #ffffff;
+    min-height: 70vh;
 }   
 h1#poke_titulo {
     font-family: sans-serif;
