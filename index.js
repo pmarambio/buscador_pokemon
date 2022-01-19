@@ -103,11 +103,11 @@ formulario.addEventListener('submit',  (e) => {
         el_pokemon = el_pokemon.toLowerCase()
 
     if(el_pokemon == ''){
-        document.querySelector('#poke_card').style.display = 'none'
+        document.querySelector('#poke_card').style.visibility = 'hidden'
         e.preventDefault();
         
     }else{
-        document.querySelector('#poke_card').style.display = 'block'
+        document.querySelector('#poke_card').style.visibility = 'visible'
 
         let url = "https://pokeapi.co/api/v2/pokemon/"+ el_pokemon,
         datos_pokemon = consulta_url(url)
