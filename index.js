@@ -1,16 +1,34 @@
 var formulario  = document.getElementById('form')
 
 //funcion que consulta las url de pokeapi
-const consulta_url = (la_url) => {
+const consulta_url = async (la_url) => {
     //console.log(la_url)
-    let settings = { method: "Get" }
-    const fetchData = fetch(la_url, settings)
-        .then(res => res.json())
-        .then( (mi_objeto) => {
-            return mi_objeto
-        }).catch(error => {return error}); 
+    // let settings = { method: "Get" }
+    // const fetchData = fetch(la_url, settings)
+    //     .then(res => res.json())
+    //     .then( (mi_objeto) => {
+    //         return mi_objeto
+    //     }).catch(error => {
+    //         return error
+    //     }); 
 
-    return fetchData
+    // return fetchData
+    console.log(la_url)
+
+    try {
+        const res = await fetch(la_url);
+        const data = await res.json();
+
+        const losPokemon = data
+
+        return losPokemon
+       
+         console.log(losPokemon)
+
+      } catch (error) {
+        console.log(error);
+      }
+
 }
 
 //función que arma mi plantilla
