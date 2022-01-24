@@ -7,6 +7,8 @@ body,html{
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(12, 12, 56);
+    min-height: 100vh;
+    height: max-content;
 }
 h1{
     font-family: 'Pokemon Solid';
@@ -14,7 +16,7 @@ h1{
     text-align: center;
     color: #e7c032;
     text-shadow: 6px 4px 0px rgb(30 30 175);
-    margin-top: 3vw;
+    padding-top: 3vw;
 }
 h2{
     text-align: center;
@@ -104,7 +106,6 @@ p span.bold{
 }
 
 footer{
-    bottom: 0;
     padding: 2vw;
     display: flex;
     justify-content: center;
