@@ -68,7 +68,7 @@ div#poke_card {
     margin: 30px auto;
     padding: 1.5%;
     background-color: #ffffff;
-    min-height: 50vh;
+    min-height: 55vh;
     max-height: fit-content !important;
     visibility: hidden;
 }   
