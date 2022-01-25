@@ -13,20 +13,16 @@ const consulta_url = async (la_url) => {
     //     }); 
 
     // return fetchData
-    console.log(la_url)
-
+    //console.log(la_url)
+    
     try {
         const res = await fetch(la_url);
-        const data = await res.json();
-
-        const losPokemon = data
-
+        console.log(res.status)
+        const losPokemon = await res.json();
         return losPokemon
-       
-         console.log(losPokemon)
-
+        //console.log(losPokemon)
       } catch (error) {
-        console.log(error);
+            console.log(error);
       }
 
 }
@@ -135,6 +131,8 @@ formulario.addEventListener('submit',  (e) => {
 
         datos_pokemon.then((item) => {
             plantilla(item);
+        }).catch(error => {
+            console.log(error)
         })
 
     }
