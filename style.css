@@ -10,13 +10,16 @@ body,html{
     min-height: 100vh;
     height: max-content;
 }
-h1{
-    font-family: 'Pokemon Solid';
-    font-size: 4vw;
+.logo{
+    width: 100%;
     text-align: center;
-    color: #e7c032;
-    text-shadow: 6px 4px 0px rgb(30 30 175);
-    padding-top: 3vw;
+    padding-top: 3%;
+}
+.logo img{
+    height: 100px;
+    width: auto;
+    max-width: 80%;
+    object-fit: contain;
 }
 h2{
     text-align: center;
