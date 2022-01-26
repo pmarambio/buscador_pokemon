@@ -17,7 +17,6 @@ const consulta_url = async (la_url) => {
     
     try {
         const res = await fetch(la_url);
-        console.log(res.status)
         const losPokemon = await res.json();
         return losPokemon
         //console.log(losPokemon)

@@ -6,5 +6,6 @@ deployment:
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp index.js $DEPLOYPATH
     - /bin/cp favicon.svg $DEPLOYPATH
+    - /bin/cp op.jpg $DEPLOYPATH
     - /bin/cp logo-pokesearch.png $DEPLOYPATH
     - /bin/cp -r fonts $DEPLOYPATH
